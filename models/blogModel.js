@@ -43,11 +43,7 @@ var blogSchema = new mongoose.Schema(
       type: String,
       default: "Admin",
     },
-    image: {
-      type: String,
-      default:
-        "https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg",
-    },
+    images: [],
   },
   {
     toJSON: {
